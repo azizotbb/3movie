@@ -1,11 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Form, Nav, Navbar } from "react-bootstrap";
 
 export default function NavBar({ search }) {
-  const [word, setWord] = useState("");
-  const onSearch = (a) => {
-    search(a);
-  };
   return (
     <Navbar expand="lg" style={{ background: "#5367ff" }}>
       <Container fluid>

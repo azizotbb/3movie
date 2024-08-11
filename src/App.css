@@ -9,7 +9,8 @@
 
 .color-body {
   background-color: #0c0f21;
-  height: 135rem;
+  height: auto;
+  min-height: 35rem;
 }
 
 .card {
@@ -36,4 +37,8 @@
 }
 .card-overlay:hover {
   opacity: 1;
+}
+
+.border-paginate {
+  border-radius: 6px;
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import CardMovie from "./CardMovie";
-
-export default function MovieList({ movie }) {
+import Pagination from "./Pagination";
+export default function MovieList({ movie, getPageMovie, numOfPage }) {
   return (
     <Row className="mt-3 ">
       {movie.length >= 1 ? (
@@ -14,6 +14,7 @@ export default function MovieList({ movie }) {
           لا يوجد افلام...
         </h2>
       )}
+      <Pagination getPageMovie={getPageMovie} numOfPage={numOfPage} />
     </Row>
   );
 }
