@@ -19,13 +19,13 @@ export default function Pagination({ getPageMovie, numOfPage }) {
       renderOnZeroPageCount={null}
       containerClassName="pagination justify-content-center py-3 "
       nextClassName="border-paginate "
-      pageClassName="page-item "
+      pageClassName="page-item  "
       previousClassName=" border-paginate"
       nextLinkClassName="page-link"
-      pageLinkClassName="page-link "
+      pageLinkClassName=" page-link "
       previousLinkClassName="page-link"
       breakClassName="page-item"
-      breakLinkClassName="page-link"
+      breakLinkClassName="page-link "
     />
   );
 }
